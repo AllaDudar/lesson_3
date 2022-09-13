@@ -1,0 +1,53 @@
+h3 {
+  color: blueviolet;
+}
+.bold {
+  color: brown;
+}
+.text.cat-piven {
+  color: cadetblue;
+}
+
+#duck {
+  color: red;
+}
+
+div.text.kapryz {
+  color: yellow;
+}
+
+.header,
+.blue {
+  color: rgb(45, 11, 196);
+}
+
+.eneida p {
+  color: rgb(255, 0, 157);
+}
+
+.menu * {
+  color: aquamarine;
+}
+.red {
+  color: red;
+}
+.first > a {
+  color: rgb(1, 8, 4);
+}
+/*
+Усі теги P які знаходяться 
+далі по коду після об'єктів з класом what-it-is
+та мають той самий рівень вкладеності
+*/
+.what-it-is ~ p {
+  color: rgb(166, 255, 0);
+}
+
+/*
+Тег P який знаходяться беспосередньо 
+далі по коду після об'єктів з класом eneida
+та мають той самий рівень вкладеності
+*/
+.eneida + p {
+  color: red;
+}
